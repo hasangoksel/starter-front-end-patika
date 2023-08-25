@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body{
+            text-align: center;
+            height: 720px;
+        }
+        #box>a{
+            padding-left: 15px;
+            padding-right: 15px;
+            text-decoration: none;
+            color: black;
+        }
+        #box>a:hover{
+            text-decoration: underline;
+        }
+        #navbar{
+            padding-right: 3%;
+            height: 70px;
+        }
+        #box{
+            text-align: center;
+            float: right;
+            margin-right: 5px;
+            align-items: center;
+        }
+        #apps-button{
+            background-color: transparent;
+            border-style: none;
+            align-items: center;
+        }
+        #apps-button>img{
+            height: 1.5rem;
+        }
+        #signIn{
+            border: 1px solid blue;
+            background-color: blue;
+            color: white;
+            width: 120px;
+            padding: 10px;
+            border-radius: 10%;
+        }
+        img[alt="Apps"]{
+            height: 25px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        header{
+            position: relative;
+            margin: auto;
+            margin-top: 5%;
+            height: 450px;
+        }
+        #search{
+            border:1px solid gray;
+            border-radius: 5%;
+            width: 450px;
+            height: 35px;
+            position: relative;
+            margin: auto;
+            margin-top: 3%;
+        }
+        #searchIn>img{
+            width: 25px;
+            height: 25px;
+        }
+        form>button{
+            padding: 1%;
+            background-color: transparent;
+            border-style: none;
+        }
+        form>button:hover{
+            border: 1px solid gray;
+            background-color: #f8f9fa;
+            border-radius: 5%;
+        }
+        #row{
+            background-color: rgb(212, 212, 212);
+            padding: 1%;
+            margin: 0px;
+            border-top: 1px solid gray;
+        }
+        #row>a{
+            margin-left: 1%;
+            text-decoration: none;
+            color: black;
+        }
+        #left>a{
+            text-decoration: none;
+            color: black;
+        }
+        #right>a{
+
+            text-decoration: none;
+            color: black;
+        }
+        #row>a:hover{
+            text-decoration: underline;
+        }
+        #left>a:hover{
+            text-decoration: underline;
+        }
+        #right>a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div id="box">
+            <a href="https://mail.google.com/mail/&ogbl">Gmail</a>  
+            <a href="https://www.google.com/imghp?hl=tr&ogbl">Görseller</a>
+            <span><img src="img/apps_FILL0_wght400_GRAD0_opsz48.png" alt="Apps"></span>
+            <button id="signIn">Oturum açın</button>   
+        </div>
+    </div>
+    <header>
+        <img src="img/googlelogo_color_272x92dp.png" alt="Google">
+        <div id="search">
+            <img src="img/search_FILL0_wght400_GRAD0_opsz48.png" alt="Ara" style="float: left; width: 25px; height: 25px; padding-left: 2%; padding-top: 1%;">
+            <input type="text" style="border-style: none; height: 33px; width: 310px; padding-left: 1%;">
+            <div id="searchIn" style="float: right; padding-right: 2%; padding-top: 1%;">
+                <img src="img/keyboard_FILL0_wght400_GRAD0_opsz48.png" alt="Harf çevirme aracı">
+                <img src="img/mic_FILL0_wght400_GRAD0_opsz48.png" alt="Sesle arama yapın">
+                <img src="img/photo_camera_FILL0_wght400_GRAD0_opsz48.png" alt="Görselle arama">
+            </div> 
+        </div>
+        <form style=" position:relative; margin: auto; margin-top:3%;">
+            <button>Google'da Ara</button>
+            <button>Kendimi Şanslı Hissediyorum</button>
+        </form>
+    </header>
+    <p style="text-align: left; padding: 1%; background-color: rgb(212, 212, 212); margin-bottom:0%; margin-left:0%; margin-right:0%;">Türkiye</p>
+    <div id="row"> 
+        <div id="left" style="float: left;">
+            <a href="https://about.google/?utm_source=google-TR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Hakkında</a>
+            <a href="https://www.google.com/intl/tr_tr/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Reklam</a>
+            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">İşletme</a>
+            <a href="https://google.com/search/howsearchworks/?fg=1">Arama Nasıl Çalışır?</a>
+        </div>
+            <img src="img/iklim.png" alt="İklim" height="15">
+            <a href="https://sustainability.google/intl/tr/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=" style="margin-left: 0%;">İklimle İlgili Çalışmalarımızın üçüncü on yılı</a>
+        <div id="right" style="float: right;"> 
+            <a href="https://policies.google.com/privacy?hl=tr&fg=1">Gizlilik</a>
+            <a href="https://policies.google.com/terms?hl=tr&fg=1">Şartlar</a>
+            <a href="#" >Ayarlar</a>
+        </div>
+    </div>
+</body>
+</html>
